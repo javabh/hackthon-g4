@@ -78,7 +78,6 @@ input#botao_cad{
     margin-left:-50px;
 }
 
-
 img{
     width: 100% !important;
 }
@@ -103,6 +102,13 @@ img{
 }
 .mtop10{
     margin-top: 10%;
+}
+.datecard {
+    height: 20%;
+}
+
+.full {
+    width: 100%;
 }
 
 #tab_busca{
