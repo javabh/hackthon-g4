@@ -103,6 +103,12 @@ img{
 .mtop10{
     margin-top: 10%;
 }
+.mtop15{
+    margin-top: 15%;
+}
+.mbottom5{
+    margin-bottom: 5%;
+}
 .datecard {
     height: 20%;
 }
@@ -113,8 +119,7 @@ img{
 
 #tab_busca{
     background-size: cover;
-    height: 500px;
     margin: 0 auto;
-    padding: 200px;
+    width: 100%;
 
 }
