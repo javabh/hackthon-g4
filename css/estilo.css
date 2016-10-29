@@ -125,4 +125,5 @@ img{
 }
 .navbar-default{
     background-color: #fefdde !important;
+    border: 1px solid #fefdde !important;
 }
