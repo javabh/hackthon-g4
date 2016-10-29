@@ -63,11 +63,19 @@
 
     </div>
     <div class="tab_banner">
-        <img src="image/loja1.png" alt="Chocolate Lovers">
+        <img src="image/loja1.png" alt="Produtos da Loja">
     </div>
 
     <div class="tab_banner">
-        <img src="image/loja2.png" alt="Você é chocólotra">
+        <img src="image/loja2.png" alt="Produtos da Loja">
+    </div>
+
+    <div class="tab_banner">
+        <img src="image/CARACOL.png" alt="Caracol">
+    </div>
+
+    <div class="tab_banner">
+        <img src="image/CARACOL2.png" alt="Caracol Logomarca">
     </div>
 
 </div>
