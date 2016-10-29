@@ -76,3 +76,10 @@ input#botao_cad{
     margin-top:-50px;
     margin-left:-50px;
 }
+
+#tab_busca{
+    background-size: cover;
+    height: 500px;
+    margin: 0 auto;
+    padding: 200px;
+}
