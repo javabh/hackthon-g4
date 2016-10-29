@@ -1,9 +1,10 @@
-<!DOCTYPE html>
-
-<html lang="pt-br" class="js csstransitions">
+<?php
+require ("config.php");
+?>
+<html>
 <head>
     <meta charset="utf-8">
-    <title>Mano Down</title>
+	<title>Tela de Login</title>
     <link rel="stylesheet" text="text/css" href="css/estilo.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="author" content="Anderson">
@@ -22,9 +23,9 @@
 
 
 </head>
-
 <body data-spy="scroll" data-target=".navbar-collapse" style="margin: 0px;">
 <!-- ========== INICIO MENU ========== -->
+
 <div class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
@@ -57,29 +58,35 @@
                 <li class="dropdown">
             </ul>
         </div>
-    </div>
-    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 
-
-    </div>
-    <div class="tab_banner">
-        <img src="image/image0.jpg" alt="Chocolate Lovers">
-    </div>
-
-    <div class="tab_banner">
-        <p>Eu sou a Eduarda e tenho Síndrome de Down e amo chocolates ! Dizem que sou Especial, então criei algo especial como eu. Espero que usem e compartilhem com os amigos o CHOCOLATES DA DUDA</p>
-    </div>
-    <div class="tab_banner">
-        <img src="image/mano_down.png" alt="Você é chocólotra">
-    </div>
-
-    <div class="tab_banner">
-        <p>Queremos que pessoas com Down sejam reconhecidos e possam exercer uma profissão com dignidade. Esperamos com esta iniciativa, que pessoas especiais mostrem suas habilidades e talentos muitas vezes escondidos ou com pouco espaço para expressão social.</p>
-    </div>
-    <div class="tab_banner">
-        <img src="image/MAOS3.png" alt="Mãos">
     </div>
 </div>
+
+<div class="content mbottom10">
+    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+        <div id="login">
+            <form name="signup" method="post" action="avalia_login.php">
+                <table id="tab_login">
+                    <tr>
+                        <td><input type="text" name="login" required placeholder="Login" id="login" class="txt" /></td>
+                    </tr>
+                    <tr>
+                        <td><input type="password" name="senha" required placeholder="Senha" id="senha" class="txt" /></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><input type="submit" value="Login" name="go" id="botao_cad"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+        <div class="tab_banner">
+            <img src="image/banner_natal.png" alt="Banner de Natal">
+        </div>
+    </div>
+</div>
+
 
 </body>
 </html>
