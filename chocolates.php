@@ -40,24 +40,23 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-center">
 
-                <li class="active"><a href="#home">HOME</a></li>
+                <li class="active"><a href="index.html">HOME</a></li>
                 <li class="dropdown">
 
-                <li class="active"><a href="#empresa">CHOCOLATES</a></li>
+                <li class="active"><a href="chocolates.php">CHOCOLATES</a></li>
                 <li class="dropdown">
 
-                <li class="active"><a href="#qualificacao">DATAS ESPECIAIS</a></li>
+                <li class="active"><a href="datas.html">DATAS ESPECIAIS</a></li>
                 <li class="dropdown">
 
-                <li class="active"><a href="#tipos">COMPRAS</a></li>
+                <li class="active"><a href="compras.php">COMPRAS</a></li>
                 <li class="dropdown">
 
 
-                <li class="active"><a href="#contato">RECEITAS</a></li>
+                <li class="active"><a href="receitas.php">RECEITAS</a></li>
                 <li class="dropdown">
             </ul>
         </div>
-    </div>
     <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
 
 

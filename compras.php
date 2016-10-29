@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Compras</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" text="text/css" href="css/estilo.css">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="author" content="Anderson">
@@ -40,20 +41,20 @@
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-center">
 
-                <li class="active"><a href="#home">HOME</a></li>
+                <li class="active"><a href="index.html">HOME</a></li>
                 <li class="dropdown">
 
-                <li class="active"><a href="#empresa">CHOCOLATES</a></li>
+                <li class="active"><a href="chocolates.php">CHOCOLATES</a></li>
                 <li class="dropdown">
 
-                <li class="active"><a href="#qualificacao">DATAS ESPECIAIS</a></li>
+                <li class="active"><a href="datas.html">DATAS ESPECIAIS</a></li>
                 <li class="dropdown">
 
-                <li class="active"><a href="#tipos">COMPRAS</a></li>
+                <li class="active"><a href="compras.php">COMPRAS</a></li>
                 <li class="dropdown">
 
 
-                <li class="active"><a href="#contato">RECEITAS</a></li>
+                <li class="active"><a href="receitas.php">RECEITAS</a></li>
                 <li class="dropdown">
             </ul>
         </div>
