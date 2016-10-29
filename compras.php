@@ -17,6 +17,12 @@
     <meta name="REVISIT-AFTER" content="3 days" />
     <meta name="document-distribution" content="global" />
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="lib/jquery/dist/jquery.min.js" ></script>
+    <script src="lib/angular/angular.min.js" ></script>
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/estilo.css" rel="stylesheet" />
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <script src="js/bootstrap.min.js"></script>
@@ -72,11 +78,11 @@
     </div>
 
     <div class="tab_banner">
-        <img src="image/CARACOL.png" alt="Caracol">
+        <img src="image/CARACOL2.png" alt="Caracol Logomarca">
     </div>
 
     <div class="tab_banner">
-        <img src="image/CARACOL2.png" alt="Caracol Logomarca">
+        <img src="image/CARACOL.png" alt="Caracol">
     </div>
 
 </div>
