@@ -4,6 +4,12 @@ body{
 	outline: none;
 	font-family: "Arial";
     background-color: #fefdde;
+    height: 100%;
+
+}
+
+.navbar {
+    box-shadow: 0 0 10px rgba(254, 253, 222, 0.10);
 }
 
 .txt{
@@ -33,20 +39,16 @@ table#tab_lista{
     width: 100%;
 }
 
-table#tab_lista td, tr {
-    border: 1px solid #CCC;
-}
 
-#tab_cadastro{
+#tab_login{
     background: url("../image/choco3.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size:
     cover;-o-background-size: cover;
     background-size: cover;
-    height: 400px;
+    height: 250px;
 	margin: 0 auto;
 	padding: 100px;
-	margin-top: 200px;
 }
 
 input#botao_cad{
@@ -63,4 +65,14 @@ input#botao_cad{
     background-color: #AAA;
     font-weight: bold;
     text-align: center;
+}
+
+#tab_banner{
+    width:100px;
+    height:100px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-50px;
+    margin-left:-50px;
 }
