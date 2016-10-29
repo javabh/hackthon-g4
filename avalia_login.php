@@ -20,7 +20,7 @@ $resultado = mysqli_query($conexao,$sql);
 echo "<script>
 				  	alert('Seja bem-vindo.');
 	  </script>
-echo <meta http-equiv='refresh' content='0, url=tela_login.php'>";
+echo <meta http-equiv='refresh' content='0, url=index.html'>";
 ?>
 
 </body>
