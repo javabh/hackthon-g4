@@ -77,11 +77,17 @@ input#botao_cad{
     margin-left:-50px;
 }
 
-
 .datecard {
     height: 20%;
 }
 
 .full {
-    width: 100%
+    width: 100%;
+}
+
+#tab_busca{
+    background-size: cover;
+    height: 500px;
+    margin: 0 auto;
+    padding: 200px;
 }
