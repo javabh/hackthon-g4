@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <script src="lib/angular/angular.min.js" ></script>
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <script type="text/javascript">
+
+        var app = angular.module('hackg4', []);
+
+        app.controller('listaCtrl', function($scope) {
+            $scope.datas = [{imagem : 'choco3'},
+            {imagem : 'choco33'},
+            {imagem : 'choco4'},
+            {imagem : 'choco44'},
+            {imagem : 'choco5', texto : 'Datas comemorativas'},
+            {imagem : 'choco33', texto : 'Natal'}];
+        });
+
+    </script>
+    
+</head>
+
+<body ng-app="hackg4">
+    <div class="container" ng-controller="listaCtrl">
+
+        <div class="row">
+            <div class="col-xs-6" ng-repeat="data in datas">
+                <img src="image/{{ data.imagem }}.jpg" />
+                <div> {{ data.texto }}</div>
+            </div>
+        </div>
+    </div>
+    <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
