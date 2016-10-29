@@ -1,21 +1,27 @@
 <html>
 
 <head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <script src="lib/jquery/dist/jquery.min.js" ></script>
     <script src="lib/angular/angular.min.js" ></script>
     <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
-
+    <link href="css/estilo.css" rel="stylesheet" />
 
     <script type="text/javascript">
 
         var app = angular.module('hackg4', []);
 
         app.controller('listaCtrl', function($scope) {
-            $scope.datas = [{imagem : 'choco3'},
-            {imagem : 'choco33'},
-            {imagem : 'choco4'},
-            {imagem : 'choco44'},
-            {imagem : 'choco5', texto : 'Datas comemorativas'},
-            {imagem : 'choco33', texto : 'Natal'}];
+            $scope.datas = [{imagem : 'namorados4'},
+                {imagem : 'namorados2'},
+                {imagem : 'diadospais3'},
+                {imagem : 'natal1'},
+                {imagem : 'diadospais2', texto : 'Datas comemorativas'},
+                {imagem : 'natal3', texto : 'Natal' }];
+
+            $scope.datasespeciais = [{imagem : 'choco7'},
+                {imagem : 'NATAL7'}];
         });
 
     </script>
@@ -27,7 +33,13 @@
 
         <div class="row">
             <div class="col-xs-6" ng-repeat="data in datas">
-                <img src="image/{{ data.imagem }}.jpg" />
+                <img class="datecard" src="image/{{ data.imagem }}.jpg" />
+                <div class="text-center"> {{ data.texto }}</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12" ng-repeat="data in datasespeciais">
+                <img class="datecard full" src="image/{{ data.imagem }}.jpg" />
                 <div> {{ data.texto }}</div>
             </div>
         </div>

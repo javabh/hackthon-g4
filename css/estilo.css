@@ -76,3 +76,12 @@ input#botao_cad{
     margin-top:-50px;
     margin-left:-50px;
 }
+
+
+.datecard {
+    height: 20%;
+}
+
+.full {
+    width: 100%
+}
