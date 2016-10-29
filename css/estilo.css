@@ -78,6 +78,7 @@ input#botao_cad{
     margin-left:-50px;
 }
 
+
 img{
     width: 100% !important;
 }
@@ -102,4 +103,12 @@ img{
 }
 .mtop10{
     margin-top: 10%;
+}
+
+#tab_busca{
+    background-size: cover;
+    height: 500px;
+    margin: 0 auto;
+    padding: 200px;
+
 }
