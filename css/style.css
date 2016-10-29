@@ -79,7 +79,7 @@ footer .row {
 ==================================================================*/
 
 .navbar {
-	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	box-shadow: 0 0 10px rgba(254, 253, 222, 0.10);
 }
 
 .nav > li > a {
@@ -94,7 +94,7 @@ footer .row {
 ==================================================================*/
 
 .tint {
-	background: rgba(0,0,0,0.2);
+	background: #fefdde;
 	height: 100%;
 	left: 0;
 	position: absolute;
@@ -152,12 +152,6 @@ footer .row {
 .background h2,
 .background h3 {
 	color: #fff;	
-}
-
-.background-image {
-	background-image: url(../images/background.html);
-	background-position: bottom center;
-	background-repeat: repeat-x;
 }
 
 .btn-transparent {

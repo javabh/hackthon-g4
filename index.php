@@ -2,11 +2,11 @@
 
 <html lang="pt-br" class="js csstransitions">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link href="css/custom1.css" rel="stylesheet">
-
-    <meta name="author" content="Anderson">
+    <meta charset="utf-8">
     <title>Chocolates da Duda</title>
+    <link rel="stylesheet" text="text/css" href="css/estilo.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="author" content="Anderson">
     <link rel="shortcut icon" href="">
     <meta name="language" content="PT-BR" />
     <meta http-equiv="content-language" content="portuguese" />
@@ -18,46 +18,15 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
 
-    <!-- Custom CSS -->
-    <link href="css/style.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
-    <link href="css/custom2.css" rel="stylesheet">
-
-    <!-- Superslides CSS -->
-    <link href="css/superslides.css" rel="stylesheet">
-
-    <!-- Owl Carousel stylesheet -->
-    <link href="css/owl.carousel.css" rel="stylesheet">
-
-    <!-- Owl Carousel Default Theme -->
-    <link href="css/owl.theme.css" rel="stylesheet">
-
-    <!-- Fancybox -->
-    <link href="css/jquery.fancybox.css" rel="stylesheet">
-
-    <!-- BX slide  -->
-    <link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet">
-
-    <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Custom CSS -->
-    <link href="css/custom3.css" rel="stylesheet">
-
-    <!--inicio analytics-->
-
-    <!--final analytics-->
 </head>
 
 <body data-spy="scroll" data-target=".navbar-collapse" style="margin: 0px;">
 <!-- ========== INICIO MENU ========== -->
 
-<div class="navbar navbar-default navbar-fixed-top">
+<div class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -65,7 +34,9 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-
+            <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                <a class="standard-logo img-responsive " data-dark-logo="image/barra_duda.png"><img src="image/barra_duda.png" alt="Chocolates da Duda"></a>
+            </div>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-center">
@@ -88,9 +59,30 @@
             </ul>
         </div>
     </div>
+    <div class="tab_banner">
+        <img src="image/choco4.jpg" alt="Chocolate">
+    </div>
+    <div class="tab_banner">
+        <img src="image/choco5.jpg" alt="Chocolate">
+    </div>
+    <div class="tab_banner">
+        <img src="image/choco44.jpg" alt="Chocolate">
+    </div>
+    <div class="tab_banner">
+        <img src="image/choco33.jpg" alt="Chocolate">
+    </div>
+    <div class="tab_banner">
+        <img src="image/image0.jpg" alt="Chocolate">
+    </div>
+    <div class="tab_banner">
+        <img src="image/mano_down.png" alt="Chocolate">
+    </div>
+    <div class="tab_banner">
+        <img src="image/chocomundo2.png" alt="Chocolate">
+    </div>
+    <iframe src="https://www.google.com/maps/d/embed?mid=1GTmNCLfLkHHj8RkS1Ac1pTuKnpo" width="640" height="480"></iframe>
 </div>
 
-<!-- ========== FINAL MENU ========== -->
 
 </body>
 </html>
